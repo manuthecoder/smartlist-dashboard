@@ -1,10 +1,10 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
-import Nav from './components/nav.js';
-import BottomNavigation from './components/bottomNavigation.js';
-import FAB from './components/FAB.js';
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import Nav from "./components/nav.js";
+import BottomNavigation from "./components/bottomNavigation.js";
+import FAB from "./components/FAB.js";
 
-import Box from '@mui/material/Box';
+import Box from "@mui/material/Box";
 
 export default function Home(props) {
   return (
@@ -23,10 +23,10 @@ export default function Home(props) {
       <Box
         component="main"
         sx={{
+          paddingTop: 3,
           flexGrow: 1,
-          p: 3,
-          ml: { lg: '300px' },
-          width: { sm: `calc(100% - 300px)` },
+          ml: { lg: "300px" },
+          width: { sm: `calc(100% - 300px)` }
         }}
       >
         {props.children}

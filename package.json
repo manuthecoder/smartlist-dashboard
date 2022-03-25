@@ -1,5 +1,5 @@
 {
-  "name": "next-app",
+  "name": "smartlist-dashboard",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -16,5 +16,10 @@
     "next": "^12.1.0",
     "react": "17.0.1",
     "react-dom": "17.0.1"
-  }
+  },
+  "keywords": [
+    "react",
+    "smartlist "
+  ],
+  "description": "Smartlist Web Dashboard"
 }
