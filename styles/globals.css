@@ -1,0 +1,13 @@
+* {
+  font-family: 'Outfit', sans-serif !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
